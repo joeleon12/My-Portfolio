@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.="/>
+    <title>Dynamic Landing Page</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .hero-image {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://img.freepik.com/free-vector/dark-gradient-hexagonal-background_52683-63120.jpg');
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: gold;
+    }
+    .hero-text h1 {
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .hero-text p {
+        font-size: 1.2em;
+    }
+    .hero-text button {
+        color: black;
+        background-color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    .feature {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .feature h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    .feature p {
+        font-size: 1em;
+        color: #555;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+    }
+    footer p {
+        margin: 0;
+    }
+    
+</style>
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+        <h1>Welcome to Our Service</h1>
+        <p>Discover the future of online experience.</p>
+        <button class="action-button">Learn More</button>
+        </div>
+    </div>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Feature One</h2>
+            <p>Description of Feature One.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature Two</h2>
+            <p>Description of Feature Two.</p>
+        </div>
+        <!-- More features -->
+    </section>
+
+    <footer>
+        <p>© 2023 Dynamic Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
